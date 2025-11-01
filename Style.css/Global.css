@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Principal:*/
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /*Base:*/
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
+    /*Font*/
+    --font-Asap: 'Asap', sans-serif;
+    --font-Inconsolata: 'Inconsolata', sans-serif;
+    --font-Maven: 'Maven-Pro', sans-serif;
+
+    --h1: 56px 800/120% var(--font-Asap);
+    --h2: 24px 800/120% var(--font-Asap);
+    --h3: 16px 800/120% var(--font-Asap);
+
+    --text-lg: 20px 650/120%  var(--font-Inconsolata);
+
+    --text-md: 16px 650/140% var(--font-Maven);
+    --text-sm: 14px 650/140% var(--font-Maven);
+}   
+
