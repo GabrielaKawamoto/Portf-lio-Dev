@@ -28,10 +28,16 @@
     --h1: 56px 800/120% var(--font-Asap);
     --h2: 24px 800/120% var(--font-Asap);
     --h3: 16px 800/120% var(--font-Asap);
-
+   
     --text-lg: 20px 650/120%  var(--font-Inconsolata);
 
     --text-md: 16px 650/140% var(--font-Maven);
     --text-sm: 14px 650/140% var(--font-Maven);
 }   
+
+body{
+    background-color: var(--gray-400);
+    margin: 50px;
+}
+
 
