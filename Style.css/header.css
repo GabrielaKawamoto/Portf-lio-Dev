@@ -2,27 +2,32 @@ header{
     
 
     figure{
+        
         background-image: url(../Assets/Images/Background_Intro.png);
         object-fit: cover;
         box-sizing: border-box;
         max-width: 1366px;
-        width: 100%;
         height: 750px;
         padding-block: 100px;
-
-        padding-left: 550px;
         
-        
-
         strong{
             color: var(--gray-200);
             font: var(--text-lg);
-            
+
 
             span{
                 color: var(--red);
             }
             
+        }
+
+        h1{
+            color: var(--gray-100);
+            
+        }
+
+        p{
+            color: var(--gray-300);
         }
     }
 }
